@@ -39,6 +39,8 @@ public class ToString {
 }
 
 ```
+
+```
 **출력 결과**
 
 c.inheritance.ToString@1540e19d
