@@ -30,7 +30,7 @@ void b(int x) {
     a(x);
 }
 
-void c(int x)
+void c(int x){
     b(x);
 }
 
@@ -62,7 +62,7 @@ int b(int x) {
     return a(x);
 }
 
-int c(int x)
+int c(int x){
     return b(x);
 }
 
@@ -84,11 +84,11 @@ Exception <-- SomeException <-- AnotherException
 public class SomeException extends Exception {
 }
 
-public class AnotherException extends SomeException
+public class AnotherException extends SomeException{
 }
 
 void a(int x) throws SomeException {
-    if (x == 0)
+    if (x == 0){
         // Error
         throw SomeException();
     }
@@ -107,6 +107,7 @@ void c(int x) throws SomeException {
 void d(int x) {
     try {
         c(x);
+    }
     catch (Exception e) {
         // Log
     }
