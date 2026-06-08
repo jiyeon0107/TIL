@@ -77,7 +77,6 @@ System.out.println(a == b);   // true ⭐
 System.out.println(a == d);   // false ❌
 ```
 
-```java
 # String 비교와 String Pool
 
 ## 비교표
