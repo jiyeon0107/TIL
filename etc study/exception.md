@@ -11,10 +11,8 @@ C, C++, java의 예외 사용 방법
 
 ## 예시 (선택)
 
-```
+``` C++
 Exception
-
-C++
 
 void a(int x) {
     if (x == 0) 
@@ -74,10 +72,9 @@ void d(int x) {
 }
 
 //d에서 예외 또는 오류를 확인하기 위해서 a,b,c의 리턴 타입이 모두 반환형이 같아야 한다.
+```
 
----
-
-Java
+```Java
 
 Exception <-- SomeException <-- AnotherException
 
